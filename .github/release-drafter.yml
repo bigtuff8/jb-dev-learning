@@ -1,0 +1,14 @@
+﻿name-template: "Release ${version}"
+tag-template: "v${version}"
+categories:
+  - title: "🚀 Features"
+    labels: ["feature", "enhancement"]
+  - title: "🐛 Fixes"
+    labels: ["bug", "fix"]
+  - title: "🧰 Maintenance"
+    labels: ["chore", "deps", "docs"]
+change-template: "- $TITLE (#$NUMBER) by @$AUTHOR"
+no-changes-template: "Minor internal changes."
+template: |
+  ## Changes
+  $CHANGES
