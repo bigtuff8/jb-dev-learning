@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "playwright test --reporter=line"
-    "test": "playwright test" --reporter=html,line"  
+    "test": "playwright test",
+    "test:ci": "playwright test --reporter=html,line"
   },
   "keywords": [],
   "author": "",
